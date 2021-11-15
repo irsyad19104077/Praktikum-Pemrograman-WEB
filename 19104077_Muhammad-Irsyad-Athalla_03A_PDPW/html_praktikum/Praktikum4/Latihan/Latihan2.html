@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 2</title>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur unde ullam repudiandae dolor numquam, architecto quod omnis quaerat, sint ipsum cumque eius, quos excepturi sunt qui delectus non fuga. Blanditiis?</p>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <button id="toggle">Toggle</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $("#hide").on("click", function() {
+            $("p").hide();
+        })
+
+        $("#show").on("click", function() {
+            $("p").show();
+        })
+
+        $("#toggle").on("click", function() {
+            $("p").toggle();
+        })
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        //menggunakan jQuery Slide
+        $(document).ready(function() {
+            /*document berfungsi mencegah code jQuery berjalan
+            terlebih dahulu sebelum dokumen selesai loading */
+            $("#flip").click(function() {
+                /*click merupakan fungsi tombol yang ingin diklik 
+                kemudian akan muncul sebuah event yang ada didalamnya */
+                $("#panel").slideToggle("slow");
+                /*slideToggle merupakan fungsi untuk menaik dan murunkan
+                content yang ada didalamnya secara slide perlahan*/
+            });
+        });
+
+        //menggunakan jQuery Hide/Show
+        $(document).ready(function() {
+            /*document berfungsi mencegah code jQuery berjalan
+            terlebih dahulu sebelum dokumen selesai loading */
+            $("#show").click(function() {
+                /*click merupakan fungsi tombol yang ingin diklik 
+                kemudian akan muncul sebuah event yang ada didalamnya */
+                $("#tuggle").toggle("slow");
+                /*toggle merupakan fungsi untuk menaik dan murunkan
+                content yang ada didalamnya secara perlahan*/
+            });
+        });
+
+        //menggunakan jQuery Fading
+        $(document).ready(function() {
+            /*document berfungsi mencegah code jQuery berjalan
+            terlebih dahulu sebelum dokumen selesai loading */
+            $("#pencet").click(function() {
+                /*click merupakan fungsi tombol yang ingin diklik 
+                kemudian akan muncul sebuah event yang ada didalamnya */
+                $("#animasi").fadeToggle("slow");
+                /*fadeToggle merupakan fungsi untuk menaik dan murunkan
+                content yang ada didalamnya secara perlahan (memudar)*/
+            });
+        });
+    </script>
+    <style>
+        #panel,
+        #flip {
+            /*style Sayu*/
+            padding: 5px;
+            text-align: center;
+            background-color: lightgreen;
+            border: solid 1px mediumseagreen;
+        }
+        
+        #flip {
+            font-family: cursive;
+            font-size: 20px;
+        }
+        
+        #panel {
+            padding: 50px;
+            display: none;
+            font-family: cursive;
+        }
+        
+        #show,
+        #tuggle {
+            /*style Xiangling*/
+            padding: 5px;
+            text-align: center;
+            background-color: crimson;
+            border: solid 1px black;
+            color: white;
+            font-family: sans-serif;
+        }
+        
+        #show {
+            font-size: 20px;
+        }
+        
+        #tuggle {
+            padding: 50px;
+            display: none;
+        }
+        
+        #pencet,
+        #animasi {
+            /*style Eula*/
+            padding: 5px;
+            text-align: center;
+            background-color: lightskyblue;
+            border: solid 1px black;
+            color: black;
+            font-family: monospace;
+        }
+        
+        #pencet {
+            font-size: 20px;
+        }
+        
+        #animasi {
+            padding: 50px;
+            position: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="flip">Talk to Sayu</div>
+    <div id="panel"><img src="sayu.jpg" width="350px">
+        <p>Hmmm. Oh, ternyata kamu ... aku sudah tidur lama ya? Padahal aku baru saja tiduran .... Oke, oke.Aku akan bangun sekarang .... Hadiah untukku? Sesuatu yang bisa membantuku tambah tinggi ya? Terima kasih! Kalau begitu akan kubagi camilanku denganmu.
+        </p>
+    </div>
+
+    <div id="show">Talk to Xiangling</div>
+    <div id="tuggle">
+        <img src="xiangling.jpg" width="350px">
+        <p>Wah! Semua bahan masakan ini untukku? Terima kasih ya! Kebetulan aku baru memetik beberapa apel segar. Manis sekali deh, nih kubagi juga untukmu! Coba kulihat bahannya ... Ada Fish, Jueyun Chili, dan Violetgrass .... Lumayan sekali! Nanti akan
+            kumasakkan Wanmin Restaurant's Boiled Fish keahlianku! Guoba juga ikut bantu masak ya!</p>
+    </div>
+
+    <div id="pencet">Talk to Eula</div>
+    <div id="animasi">
+        <img src="eula.jpg" width="350px">
+        <p>Jika kamu bahkan tidak bisa berdansa dengan baik,jangan berpikir bisa belajar Favonius Bladework dariku. Jadi, apakah akhir-akhir ini kamu sudah berlatih gerakan dansa yang kuajarkan? Oh? Percaya diri sekali kamu. Kalau begitu, saatnya kamu menunjukkan
+            hasil latihanmu padaku. Hati-hati, jangan sampai menginjak kakiku waktu berdansa. Aku akan menyimpan dendam padamu.</p>
+    </div>
+</body>
+
+</html>

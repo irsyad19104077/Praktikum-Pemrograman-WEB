@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 4</title>
+    <style>
+        .heading {
+            color: #f00;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores excepturi aliquid minus repellendus possimus, sit earum eius provident, saepe mollitia quis sunt perspiciatis assumenda facilis, in culpa illo voluptatem!</h1>
+    <button id="ganti">Ganti</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $("#ganti").on("click", function() {
+            $("h1").addClass("heading");
+        })
+    </script>
+</body>
+
+</html>
