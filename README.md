@@ -10,6 +10,8 @@
 ![image](https://user-images.githubusercontent.com/72425821/141785097-6f9cb817-fc39-4770-8b75-bb454f8bd3d9.png)
 # Praktikum 5
 ![image](https://user-images.githubusercontent.com/72425821/145673599-0dee94e7-50e7-4738-a063-af1290631193.png)
+![image](https://user-images.githubusercontent.com/72425821/145679645-352c5e0d-27fc-41b5-9050-d664810b8f41.png)
+
 
 # Tugas Praktikum
 # Tugas Praktikum 1
