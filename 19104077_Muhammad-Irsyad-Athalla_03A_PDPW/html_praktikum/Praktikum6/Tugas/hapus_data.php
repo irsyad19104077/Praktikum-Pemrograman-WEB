@@ -1,0 +1,21 @@
+<?php
+    /* ini merupakan code untuk menyambungkan ke localhost
+        yang bertujuan untuk menghapus data
+     */
+    include "koneksi.php";
+    include "create_message.php";
+
+    $sql = "DELETE from data where id=".$_GET['mahasiswa_id'];
+
+    if ($conn->query($sql) === TRUE) {
+        $conn->close();
+        create_message('Hapus data berhasil','success','check');
+        header("location:index.php");
+        exit();
+    } else {    
+        $conn->close();
+        create_message("Error: " . $sql . "<br>" . $conn->error,"danger","warning");
+        header("location:index.php");
+        exit();
+    }
+?>
