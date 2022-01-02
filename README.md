@@ -14,6 +14,9 @@
 # Praktikum 6
 ![image](https://user-images.githubusercontent.com/72425821/146678097-3b0d0ddc-3edd-41e6-bd2d-6f9ec497ad9a.png)
 ![image](https://user-images.githubusercontent.com/72425821/146678106-54f4dc11-85a7-4ff4-84bd-e98ade12c815.png)
+# Praktikum 7
+![image](https://user-images.githubusercontent.com/72425821/147407020-2e72f857-e637-44bd-a19e-4dd9e9a481bc.png)
+![image](https://user-images.githubusercontent.com/72425821/147406986-5717d33c-b1b4-44e0-ad1a-582ae906ff49.png)
 
 # Tugas Praktikum
 # Tugas Praktikum 1
@@ -26,3 +29,5 @@
 ![image](https://user-images.githubusercontent.com/72425821/145673607-9731bce8-1997-4c45-ba5e-bd1687c041f0.png)
 # Tugas Praktikum 6
 ![image](https://user-images.githubusercontent.com/72425821/146678140-2f81e10c-f34e-456e-8b63-d20d8d799e90.png)
+# Tugas Praktikum 7
+![image](https://user-images.githubusercontent.com/72425821/147407000-85e8aa59-52ee-401c-9472-9108ca8154a4.png)
