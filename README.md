@@ -1,6 +1,8 @@
 # Nama   : Muhammad Irsyad Athalla
 # NIM    : 19104077
 # Kelas  : SE-03-A
+# HOSTING : https://irsyad19104077praktikum.000webhostapp.com/mahasiswa
+            https://irsyad19104077praktikum.000webhostapp.com/mahasiswa/create
 # Praktikum-Pemrograman-WEB
 # Praktikum 1
 ![Screenshot_21](https://user-images.githubusercontent.com/72425821/137668954-bf802ecf-b2f2-4c63-843d-d89be4fe2f4c.png)
